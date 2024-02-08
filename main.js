@@ -59,14 +59,23 @@
 
 // console.log(precioFinal);
 
+
+
 // 7. Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.
 
-let i = 0;
+// let i = 0;
 
-while(i <= 100){
+// while(i <= 100){
 
-    console.log(i)
-    i++
+//     console.log(i)
+//     i++
+// }
+
+
+// 8. Haz el mismo ejercicio anterior con un bucle for.
+
+for (let i=1; i<=100; i++){
+    console.log(i);
 }
 
 
