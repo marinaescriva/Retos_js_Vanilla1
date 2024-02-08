@@ -52,9 +52,22 @@
 // 6. Lee un número por teclado que pida el precio de un producto (puede tener decimales) y
 // calcule el precio final con IVA. El IVA será una constante que sera del 21%.
 
-let precio = parseInt(prompt("¿Qué precio tiene x?"))
-const iva = 0.21;
+// let precio = parseInt(prompt("¿Qué precio tiene x?"))
+// const iva = 0.21;
 
-let precioFinal = precio + (precio * iva);
+// let precioFinal = precio + (precio * iva);
 
-console.log(precioFinal);
+// console.log(precioFinal);
+
+// 7. Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.
+
+let i = 0;
+
+while(i <= 100){
+
+    console.log(i)
+    i++
+}
+
+
+
