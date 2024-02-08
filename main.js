@@ -25,6 +25,19 @@
 // 3. Modifica la aplicación anterior, para que nos pida el nombre que queremos introducir
 // (recuerda usar prompt).
 
-let nombre = prompt("dime tu nombre")
+// let nombre = prompt("dime tu nombre")
 
-console.log("Bienvenid@" , nombre)
+// console.log("Bienvenid@" , nombre)
+
+
+4. Haz una aplicación que calcule el área de un círculo (pi*R2). El radio se pedirá por teclado
+(recuerda pasar de String a double con parseDouble). Usa la constante PI.
+
+let pi = 3.14;
+
+let obj = prompt.parseInt("Dime el radio de tu círculo")
+
+let pi2 = double.parseDouble(pi)
+resultado = (pi* parseDouble(obj))
+
+console.log=(resultado)
