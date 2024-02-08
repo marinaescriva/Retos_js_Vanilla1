@@ -16,6 +16,15 @@
 // 2. Declara un String que contenga tu nombre, después muestra un mensaje de bienvenida
 // por consola. Por ejemplo: si introduzco “Fernando”, me aparezca “Bienvenido Fernando”.
 
-let nombre ="Marina"
+// let nombre ="Marina"
 
-console.log("Bienvenida" , nombre)
+// console.log("Bienvenida" , nombre)
+
+
+
+// 3. Modifica la aplicación anterior, para que nos pida el nombre que queremos introducir
+// (recuerda usar prompt).
+
+let nombre = prompt("dime tu nombre")
+
+console.log("Bienvenid@" , nombre)
