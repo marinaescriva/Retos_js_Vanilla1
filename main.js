@@ -33,9 +33,17 @@
 // 4. Haz una aplicación que calcule el área de un círculo (pi*R2). El radio se pedirá por teclado
 // (recuerda pasar de String a double con parseDouble). Usa la constante PI.
 
-let pi = 3.14;
+// let pi = 3.14;
 
-let obj = parseInt(prompt("Dime el radio de tu círculo"));
+// let obj = parseInt(prompt("Dime el radio de tu círculo"));
 
-console.log(pi*(obj*2));
+// console.log(pi*(obj*2));
 
+
+
+// 5. Lee un número por teclado e indica si es divisible entre 2 (resto = 0). Si no lo es, también
+// debemos indicarlo.
+
+let numero = parseInt(prompt("dime un numero"));
+
+((numero % 2) == 0) ? console.log("es divisible por 2") : console.log ("no es divisible por 2");
