@@ -100,12 +100,35 @@
 // mostrará la suma de todas las ventas. Piensa que es lo que se repite y lo que no.
 
 
-let nVentas= parseInt(prompt("dime el numero de ventas")):
+// let nVentas= parseInt(prompt("dime el numero de ventas")):
 
-for(i=0; i<nVentas; i++){
+// for(i=0; i<nVentas; i++){
 
-    total += parseInt(prompt("dime cuanto te ha costado esto"))
+//     total += parseInt(prompt("dime cuanto te ha costado esto"))
+
+// }
+// console.log(total)
+
+
+
+// 11. Crea una aplicación que nos pida un día de la semana y que nos diga si es un día laboral
+// o no. Usa un switch para ello.
+
+let dia = prompt("dime un dia de la semana").trim().toLowerCase();
+
+switch(dia){
+
+    case "lunes": 
+    case "martes": 
+    case "miercoles":
+    case "jueves":
+    case "viernes": console.log("no es finde")
+
+    break;
+
+    case "sabado":
+    case "domingo":  console.log("es finde")
+
+    break;
 
 }
-console.log(total)
-
