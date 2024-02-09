@@ -114,21 +114,52 @@
 // 11. Crea una aplicación que nos pida un día de la semana y que nos diga si es un día laboral
 // o no. Usa un switch para ello.
 
-let dia = prompt("dime un dia de la semana").trim().toLowerCase();
+// let dia = prompt("dime un dia de la semana").trim().toLowerCase();
 
-switch(dia){
+// switch(dia){
 
-    case "lunes": 
-    case "martes": 
-    case "miercoles":
-    case "jueves":
-    case "viernes": console.log("no es finde")
+//     case "lunes": 
+//     case "martes": 
+//     case "miercoles":
+//     case "jueves":
+//     case "viernes": console.log("no es finde")
 
-    break;
+//     break;
 
-    case "sabado":
-    case "domingo":  console.log("es finde")
+//     case "sabado":
+//     case "domingo":  console.log("es finde")
 
-    break;
+//     break;
+
+// }
+
+
+
+// 12. Escribe una aplicación con un String que contenga una contraseña cualquiera. Después
+// se te pedirá que introduzcas la contraseña, con 3 intentos. Cuando aciertes ya no pedirá
+// más la contraseña y mostrará un mensaje diciendo “Enhorabuena”. Piensa bien en la
+// condición de salida (3 intentos y si acierta sale, aunque le queden intentos).
+
+let contra = "marina";
+
+for(let i=0; i<3; i++){
+    
+    let respuesta = prompt("dime la contraseña").trim().toLowerCase();
+
+    if(respuesta === contra){
+
+        console.log("enhorabuena") 
+        break;
+    }else{
+        console.log("prueba otra vez")
+    }
 
 }
+
+
+
+
+
+
+
+
