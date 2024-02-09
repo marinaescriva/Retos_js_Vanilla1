@@ -52,13 +52,12 @@
 // 6. Lee un número por teclado que pida el precio de un producto (puede tener decimales) y
 // calcule el precio final con IVA. El IVA será una constante que sera del 21%.
 
-// let precio = parseInt(prompt("¿Qué precio tiene x?"))
+// let precio = parseFloat(prompt("¿Qué precio tiene x?"))
 // const iva = 0.21;
 
 // let precioFinal = precio + (precio * iva);
 
 // console.log(precioFinal);
-
 
 
 // 7. Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.
@@ -72,11 +71,41 @@
 // }
 
 
-// 8. Haz el mismo ejercicio anterior con un bucle for.
+// // 8. Haz el mismo ejercicio anterior con un bucle for.
 
-for (let i=1; i<=100; i++){
-    console.log(i);
+// for (let i=1; i<=100; i++){
+//     console.log(i);
+// }
+
+
+// 9. Muestra los números del 1 al 100 (ambos incluidos) divisibles entre 2 y 3. Utiliza el bucle
+// que desees.
+
+
+// for(let i=1; i<=100;i++){
+
+//     if(i%2 === 0){
+//         console.log(i, "es divisible entre 2")
+//     }
+//     else if(i%3 === 0){
+//         console.log(i, "es divisible entre 3")
+//     }else{
+//         console.log(i, "no es divisible ni por 2 ni por 3")
+//     }
+// }
+
+
+// 10. Realiza una aplicación que nos pida un número de ventas a introducir, después nos
+// pedirá tantas ventas por teclado como número de ventas se hayan indicado. Al final
+// mostrará la suma de todas las ventas. Piensa que es lo que se repite y lo que no.
+
+
+let nVentas= parseInt(prompt("dime el numero de ventas")):
+
+for(i=0; i<nVentas; i++){
+
+    total += parseInt(prompt("dime cuanto te ha costado esto"))
+
 }
-
-
+console.log(total)
 
